@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:searchViewStyle">@style/CustomSearchViewStyle</item>
+        <!-- Customize the toolbar -->
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <!-- Customize the navigation icon color (back arrow) -->
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="mystyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomSnackbar" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="background">@color/colorPrimary</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize search icon -->
+        <item name="searchIcon">@color/white</item>
+        <!-- Customize back icon -->
+        <item name="closeIcon">@color/white</item>
+        <!-- Customize text color -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Customize hint text color -->
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+
+
+    <style name="CustomSnackbarActionButton" parent="Widget.MaterialComponents.Button.TextButton.Snackbar">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/colorPrimaryLight</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/voice_nav"
+        android:title="@string/menu_turn_off_voice"
+        />
+    <item
+        android:id="@+id/twod_view"
+        android:title="@string/menu_open_2d_map" />
+</menu>
